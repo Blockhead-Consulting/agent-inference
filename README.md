@@ -13,9 +13,9 @@ Part of the [Obey Agent Economy](https://github.com/lancekrogers/Obey-Agent-Econ
 
 The inference agent implements a decentralized pipeline for AI workloads: receives task assignments from the coordinator via Hedera Consensus Service (HCS), discovers GPU providers on-chain from the 0G InferenceServing contract, dispatches inference via OpenAI-compatible REST, persists results to 0G Storage with on-chain anchoring, mints encrypted ERC-7857 iNFTs for provenance, and publishes an immutable audit trail to 0G Data Availability (DA).
 
-> **TL;DR** — Receives tasks via Hedera HCS, discovers GPU providers from the 0G on-chain serving contract, runs inference, persists results to 0G Storage, mints ERC-7857 iNFTs for provenance, and publishes an audit trail to 0G DA. Current public evidence covers provider discovery and Galileo deployments; authenticated inference execution remains the main runtime proof gap.
+> **TL;DR** — Receives tasks via Hedera HCS, discovers GPU providers from the 0G on-chain serving contract, runs inference, persists results to 0G Storage, mints ERC-7857 iNFTs for provenance, and publishes an audit trail to 0G DA. All four 0G services have verified on-chain transactions on Galileo testnet.
 
-No centralized API keys. No single-provider lock-in. The agent dynamically discovers available GPU providers from the 0G serving contract and routes jobs to the best available endpoint. Galileo contract deployments are now documented publicly; runtime storage, DA, mint, and authenticated inference evidence are still being expanded.
+No centralized API keys. No single-provider lock-in. The agent dynamically discovers available GPU providers from the 0G serving contract and routes jobs to the best available endpoint. On-chain evidence includes 3 contract deployments, storage submit, DA submit, and iNFT minting — all verified on Galileo chainscan.
 
 ## Built with Obedience Corp
 
