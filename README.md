@@ -4,6 +4,8 @@
 [![0G](https://img.shields.io/badge/0G-Galileo%20Testnet-00D4AA)](https://0g.ai)
 [![Hedera](https://img.shields.io/badge/Hedera-HCS-8259EF?logo=hedera)](https://hedera.com)
 [![ERC-7857](https://img.shields.io/badge/ERC--7857-iNFT-3C3C3D?logo=ethereum)](https://eips.ethereum.org)
+  <a href="https://github.com/Obedience-Corp/festival"><img src="https://img.shields.io/badge/built%20with-Festival-7c3aed.svg" alt="Built with Festival"></a>
+
 
 Decentralized AI inference agent built on the [0G](https://0g.ai) compute ecosystem.
 
